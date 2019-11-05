@@ -31,7 +31,7 @@
     $ docker run -it --rm python:3.7-slim-stretch bash
     root@c493dd41ca0b:/# du -sh /
     159M	/
-    root@c493dd41ca0b:/# pip install --no-cache-dir --install-option="--prefix=/install" simpleitk
+    root@c493dd41ca0b:/# pip install --upgrade pip && pip install --no-cache-dir simpleitk
     Collecting simpleitk
     Downloading https://files.pythonhosted.org/packages/58/5f/f592b07d0f04504bf4a48dfa6bbd9fcaa8591169513f845908caf3e8c9f8/SimpleITK-1.2.3-cp37-cp37m-manylinux1_x86_64.whl (42.5MB)
         |████████████████████████████████| 42.5MB 1.2MB/s
