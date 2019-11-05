@@ -48,3 +48,7 @@
     && python -m pip install --upgrade pip \
     && python -m pip install --no-cache-dir simpleitk
 
+## gcc/libc-dev need libs
+
+    apt-get update && apt-get install -y gcc libc-dev
+    pip install psutil posix-ipc
